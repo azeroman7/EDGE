@@ -1,6 +1,6 @@
 # Diffusion Models
 
-This repository contains implementations of EDGE (Editable Dance Generation From Music), wave-to-video
+This repository contains implementations of EDGE (Editable Dance Generation From Music) (wave-to-video)
 
 ## Git clone
 ```bash
@@ -17,7 +17,6 @@ pip install git+https://github.com/rodrigo-castellon/jukemirlib.git
 pip install wandb
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-#pip install torch torchvision torchaudio
 pip install fvcore iopath
 pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py310_cu118_pyt201/download.html
 
@@ -26,6 +25,10 @@ pip install matplotlib einops p_tqdm
 ```
 ## Download ckpt
 --> download checkpoint.pt from https://drive.google.com/file/d/1BAR712cVEqB8GR37fcEihRV_xOC-fZrZ/view
+
+```bash
+cp ~/Download/checkpoint.pt .
+```
 
 ## Run script --> renders/*.mp4
 ```bash
