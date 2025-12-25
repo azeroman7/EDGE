@@ -27,7 +27,7 @@ pip install matplotlib einops p_tqdm
 --> download checkpoint.pt from https://drive.google.com/file/d/1BAR712cVEqB8GR37fcEihRV_xOC-fZrZ/view
 
 ```bash
-cp ~/Download/checkpoint.pt .
+cp ~/Downloads/checkpoint.pt .
 ```
 
 ## Run script --> renders/*.mp4
