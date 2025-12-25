@@ -31,6 +31,8 @@ cp ~/Download/checkpoint.pt .
 ```
 
 ## Run script --> renders/*.mp4
+If it takes long time for processing all wave files, you can delete some from custom_misic folder.
+
 ```bash
 ./run.sh
 ```
